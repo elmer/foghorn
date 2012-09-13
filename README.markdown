@@ -29,7 +29,7 @@ This will install the Fog client, the Cucumber framework and other dependencies.
 To configure the framework to point to your specific OpenStack system make sure the following environment variables
 are defined:
 
-* FOGHORN_OS_AUTH_HOS: the IP address or hostname where Keystone is running.
+* FOGHORN_OS_AUTH_HOST: the IP address or hostname where Keystone is running.
 * FOGHORN_OS_AUTH_PORT: the port on which Keystone is listening (defautls to 35357).
 * FOGHORN_OS_TENANT: the tenant used to authenticate and perform various operations.
 * FOGHORN_OS_USER: the user ID to authenticate with.
